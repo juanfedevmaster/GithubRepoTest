@@ -44,6 +44,15 @@ public class Farmacia extends JFrame {
         itemRegistrar.addActionListener(e -> abrirRegistroCliente());
         menuCliente.add(itemRegistrar);
 
+        // Menú Ventas
+        JMenu menuVentas = new JMenu("Ventas");
+        JMenuItem itemRegistroVenta = new JMenuItem("Registro de venta");
+        itemRegistroVenta.addActionListener(e -> {
+            // Funcionalidad en desarrollo: aún no implementada.
+            JOptionPane.showMessageDialog(this, "Funcionalidad de registro de venta pendiente de implementar.", "Registro de venta", JOptionPane.INFORMATION_MESSAGE);
+        });
+        menuVentas.add(itemRegistroVenta);
+
         // Menú Salir
         JMenu menuSalir = new JMenu("Archivo");
         JMenuItem itemSalir = new JMenuItem("Salir");
@@ -51,6 +60,7 @@ public class Farmacia extends JFrame {
         menuSalir.add(itemSalir);
 
         menuBar.add(menuCliente);
+        menuBar.add(menuVentas);
         menuBar.add(menuSalir);
     }
 
