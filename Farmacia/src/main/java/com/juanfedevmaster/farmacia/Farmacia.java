@@ -1,13 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.juanfedevmaster.farmacia;
 
 import javax.swing.*;
 
 /**
- *
+ * Sistema de Farmacia - Programa principal
  * @author juanfe
  */
 public class Farmacia extends JFrame {
